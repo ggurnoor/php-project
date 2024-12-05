@@ -1,0 +1,183 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DAD9D7; /* Soft light gray background */
+    color: #3F402E; /* Dark greenish-gray for text readability */
+}
+
+/* Header styling */
+header {
+    background: #3F402E; /* Dark greenish-gray for header */
+    color: #E8E9EC; /* Light off-white text for contrast */
+    padding: 15px 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+/* Anchor link styling */
+a {
+    color: #908371; /* Beige/Creme color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+a:hover {
+    color: #D5D7E3; /* Light grayish color on hover */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+a:active {
+    color: #FFFFFF; /* White color when active (clicked) */
+}
+
+/* Inventory container */
+.inventory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the inventory container */
+}
+
+/* Individual car card */
+.car {
+    background-color: #E8E9EC; /* Light off-white background for cards */
+    border: 1px solid #908371; /* Neutral beige border */
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Car image */
+.car img {
+    width: 100%; /* Make the image fill the container width */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+/* Car details */
+.car h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #3F402E; /* Dark text for contrast */
+}
+
+.car p {
+    font-size: 1rem;
+    color: #908371; /* Neutral beige for details text */
+}
+
+/* View More button */
+.car a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #3F402E; /* Dark greenish-gray background */
+    color: #E8E9EC; /* Light text */
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.car a:hover {
+    background-color: #908371; /* Neutral beige for hover */
+    color: #3F402E; /* Dark text for contrast */
+}
+
+/* Form container */
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #E8E9EC; /* Light off-white background */
+    border: 1px solid #908371; /* Neutral beige border */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels and inputs */
+.form-container label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #3F402E; /* Dark text for labels */
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #908371; /* Neutral beige border */
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #D5D7E3; /* Light grayish background for inputs */
+    color: #3F402E; /* Dark text for inputs */
+}
+
+/* Submit button */
+.form-container button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3F402E; /* Dark greenish-gray */
+    color: #E8E9EC; /* Light text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #908371; /* Neutral beige for hover */
+    color: #3F402E; /* Dark text */
+}
+
+/* Login and Register Buttons */
+header nav button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #908371; /* Beige background */
+    color: #3F402E; /* Dark text */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header nav button:hover {
+    background-color: #D5D7E3; /* Light grayish background on hover */
+    color: #908371; /* Dark text for hover */
+}
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3F402E; /* Dark greenish-gray */
+    color: #E8E9EC; /* Light text */
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #908371; /* Neutral beige for hover */
+    color: #3F402E; /* Dark text for hover */
+}
+
+
